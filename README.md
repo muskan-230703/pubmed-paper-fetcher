@@ -10,9 +10,8 @@ This command-line tool fetches research papers from PubMed based on a user-provi
 - Modular, typed code with Poetry setup
 
 ## Installation
+
 ```bash
-git clone https://github.com/YOUR_USERNAME/pubmed-paper-fetcher
+git clone https://github.com/muskan-230703/pubmed-paper-fetcher
 cd pubmed-paper-fetcher
 poetry install
-
-![Result Screenshot](screenshot.png)
