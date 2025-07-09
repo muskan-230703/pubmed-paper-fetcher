@@ -15,3 +15,7 @@ This command-line tool fetches research papers from PubMed based on a user-provi
 git clone https://github.com/muskan-230703/pubmed-paper-fetcher
 cd pubmed-paper-fetcher
 poetry install
+
+## 📸 Sample Output
+
+![Result Screenshot](screenshot.png)
