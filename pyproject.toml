@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pubmed-paper-fetcher"
+version = "0.1.0"
+description = "CLI tool to fetch PubMed papers with non-academic pharma affiliations"
+authors = ["Muskan Yadav <musu2307@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "pubmed_fetcher" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.32.4"
+
+[tool.poetry.scripts]
+get-papers-list = "cli.get_papers_list:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
